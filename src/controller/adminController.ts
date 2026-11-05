@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { z } from 'zod';
 import { Subject } from '../models/subject';
 import { Task } from '../models/task';
-import { User } from '../models/user';
+import { User } from '../models/User';
 import { AppError } from '../utils/AppError';
 import { asyncHandler } from '../utils/asyncHandler';
 

@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { IUser, Role, User } from '../models/user';
+import { IUser, Role, User } from '../models/User';
 import { AppError } from '../utils/AppError';
 import { asyncHandler } from '../utils/asyncHandler';
 import { verifyAccessToken } from '../utils/token';

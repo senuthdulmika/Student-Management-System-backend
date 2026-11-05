@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import { CookieOptions, Request, Response } from 'express';
 import { z } from 'zod';
 import { env } from '../config/env';
-import { IUser, User } from '../models/user';
+import { IUser, User } from '../models/User';
 import { AppError } from '../utils/AppError';
 import { asyncHandler } from '../utils/asyncHandler';
 import { resetEmail, sendEmail, welcomeEmail } from '../utils/email';
